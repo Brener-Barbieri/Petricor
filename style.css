@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1.3;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  background-color: transparent;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 0 16px;
+  border: 1px red solid;
+}
+
+.icon{
+  margin-right: 12px;
+}
+
+.button{
+  background-color: blueviolet;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header .icons{
+  align-items: center;
+  display: flex;
+}
+
+.banner{
+  background-image: url(CASA\ GL/-moz-osx-font-smoothing);
+}
