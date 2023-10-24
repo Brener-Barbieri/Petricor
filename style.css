@@ -31,17 +31,16 @@ a {
   margin: 0 auto;
   max-width: 1120px;
   padding: 0 16px;
-  border: 1px red solid;
 }
 
 .icon{
-  margin-right: 12px;
+  margin-right: 16px;
 }
 
 .button{
   background-color: blueviolet;
   color: white;
-  padding: 16px;
+  padding: 12px 16px;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -52,14 +51,83 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0;
 
 }
 
 .header .icons{
   align-items: center;
   display: flex;
+
 }
 
 .banner{
-  background-image: url(CASA\ GL/-moz-osx-font-smoothing);
+  height: 660px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/2.13.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.banner .column{
+  max-width: 400px;
+  padding-top: 140px;
+  padding-left: 100px;
+}
+
+.banner .title{
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.banner .button{
+  max-width: 220px;
+}
+
+.description{
+  margin-top: 60px;
+}
+
+.description .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.description .column.-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.description .column.-text{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.description .column .images{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.description .image.-secundary{
+  height: 100%;
+  border-top: 60px solid white;
+  border-bottom: 60px solid white;
+  display: block; 
+  object-fit: cover;
+}
+
+.image{
+  max-width: 100%;
+}
+
+.description .subtitle{
+  font-size: 2rem;
+  color: blueviolet;
+  margin-bottom: 8px;
 }
