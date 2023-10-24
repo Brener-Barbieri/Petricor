@@ -131,3 +131,36 @@ a {
   color: blueviolet;
   margin-bottom: 8px;
 }
+
+.biography{
+  margin-top: 60px;
+}
+
+.biography .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 80px;
+}
+
+.biography .column{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.biography .name{
+  font-size: 3rem;
+  color: blueviolet;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.biography .text{
+  margin-bottom: 60px;
+}
+
+.biography .image{
+  height: 540px;
+  object-fit: cover;
+}
