@@ -234,3 +234,29 @@ a {
   margin-bottom: 40px;
   margin-top: 24px;
 }
+
+.feedbacks{
+  margin-top: 80px;
+}
+
+.feedbacks .title{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.feedbacks .list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.feedbacks .item{
+  background-color: rgba(208, 205, 205, 0.617);
+  padding: 36px;
+}
+
+.feedbacks .text{
+  color: rgb(96, 96, 96);
+  margin-top: 40px;
+}
