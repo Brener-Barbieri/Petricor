@@ -196,3 +196,41 @@ a {
   margin-bottom: 12px;
   font-size: 1.2rem;
 }
+
+.singularity{
+  margin-top: 80px;
+  height: 500px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/2.2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.singularity .title{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: white;
+  padding-top: 80px;
+}
+
+.singularity .list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  color: white;
+}
+
+.singularity .item{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 2px solid white;
+}
+
+
+.singularity .subtitle{
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
