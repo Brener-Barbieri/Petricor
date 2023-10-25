@@ -88,6 +88,8 @@ a {
 
 .banner .button{
   max-width: 220px;
+  background-color: white;
+  color: black;
 }
 
 .description{
@@ -287,3 +289,43 @@ a {
   font-size: 1.3rem;
   text-align: end;
 }
+
+.contact{
+  margin-top: 80px;
+  height: 400px;
+  position: relative;
+  background: linear-gradient(rgba(174, 20, 231, 0.800),rgba(175, 20, 231, 0.800)), url(img/1.9.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contact .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 160px;
+}
+
+.contact .title{
+  font-size: 2rem;
+  color: white;
+}
+
+/* .contact .colum{
+  display: flex;
+  align-items: end;
+} */
+
+.contact .button{
+  max-width: 220px;
+  height: 60px;
+  background-color: white;
+  color: black;
+  margin-left: 400px;
+}
+
+.footer{
+  background-color: #343333;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
