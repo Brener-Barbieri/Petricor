@@ -15,6 +15,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+li{
+  list-style: none;
+}
+
 body {
   font-size: 100%;
   line-height: 1.3;
@@ -163,4 +167,32 @@ a {
 .biography .image{
   height: 540px;
   object-fit: cover;
+}
+
+.stage{
+  margin-top: 60px;
+}
+
+.stage .list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.stage .number{
+  font-size: 3rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.stage .title.-primary{
+  font-weight: bold;
+  color: gray;
+  font-size: 1.6rem;
+}
+
+.stage .title{
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
 }
